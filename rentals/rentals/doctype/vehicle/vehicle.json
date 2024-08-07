@@ -6,6 +6,7 @@
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
+  "title",
   "make",
   "model",
   "year",
@@ -49,11 +50,16 @@
    "fieldname": "color",
    "fieldtype": "Data",
    "label": "Color"
+  },
+  {
+   "fieldname": "title",
+   "fieldtype": "Read Only",
+   "label": "Title"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-08-06 15:17:25.580853",
+ "modified": "2024-08-07 14:18:48.726706",
  "modified_by": "Administrator",
  "module": "Rentals",
  "name": "Vehicle",
@@ -77,6 +83,6 @@
  "sort_field": "modified",
  "sort_order": "DESC",
  "states": [],
- "title_field": "model",
+ "title_field": "title",
  "track_changes": 1
 }
