@@ -13,6 +13,7 @@
   "column_break_fczs",
   "status",
   "pickup_address",
+  "section_break_avzq",
   "location"
  ],
  "fields": [
@@ -65,11 +66,15 @@
    "fieldname": "location",
    "fieldtype": "Geolocation",
    "label": "Location"
+  },
+  {
+   "fieldname": "section_break_avzq",
+   "fieldtype": "Section Break"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-08-07 14:28:53.613120",
+ "modified": "2024-08-07 15:32:44.461714",
  "modified_by": "Administrator",
  "module": "Rentals",
  "name": "Ride Order",
