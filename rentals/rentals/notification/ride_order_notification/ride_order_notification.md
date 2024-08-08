@@ -1,0 +1,1 @@
+{{ doc.customer_name }} just order a vehicle !

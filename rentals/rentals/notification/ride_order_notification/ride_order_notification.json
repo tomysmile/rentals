@@ -1,0 +1,31 @@
+{
+ "attach_print": 0,
+ "channel": "Email",
+ "creation": "2024-08-08 16:49:58.109003",
+ "days_in_advance": 0,
+ "docstatus": 0,
+ "doctype": "Notification",
+ "document_type": "Ride Order",
+ "enabled": 1,
+ "event": "New",
+ "idx": 0,
+ "is_standard": 1,
+ "message": "{{ doc.customer_name }} just order a vehicle !",
+ "message_type": "Markdown",
+ "modified": "2024-08-08 16:50:09.951112",
+ "modified_by": "Administrator",
+ "module": "Rentals",
+ "name": "Ride Order Notification",
+ "owner": "Administrator",
+ "recipients": [
+  {
+   "receiver_by_role": "Administrator"
+  },
+  {
+   "receiver_by_role": "System Manager"
+  }
+ ],
+ "send_system_notification": 1,
+ "send_to_all_assignees": 0,
+ "subject": "{{ doc.customer_name }} just make an order !"
+}

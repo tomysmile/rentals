@@ -5,21 +5,27 @@
  "days_in_advance": 0,
  "docstatus": 0,
  "doctype": "Notification",
- "document_type": "Ride Booking",
+ "document_type": "Ride Order",
  "enabled": 1,
  "event": "New",
  "idx": 0,
  "is_standard": 1,
  "message": "Hey, new booking has arrived!\n\n<a href=\"http://erpv15dev.localhost/app\">Click here to view</a>",
  "message_type": "HTML",
- "modified": "2024-08-08 12:13:42.816141",
+ "modified": "2024-08-08 16:44:23.467906",
  "modified_by": "Administrator",
  "module": "Rentals",
  "name": "New Booking Arrived !",
  "owner": "Administrator",
  "recipients": [
   {
+   "receiver_by_role": "Administrator"
+  },
+  {
    "receiver_by_role": "System Manager"
+  },
+  {
+   "receiver_by_role": "All"
   }
  ],
  "send_system_notification": 0,
