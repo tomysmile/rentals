@@ -11,12 +11,15 @@
   "make",
   "model",
   "year",
+  "insurance_expiry",
   "column_break_uifx",
   "license_plate",
   "color",
   "is_published",
   "route",
-  "vehicle_image"
+  "vehicle_image",
+  "status",
+  "condition"
  ],
  "fields": [
   {
@@ -76,6 +79,24 @@
    "fieldname": "vehicle_image",
    "fieldtype": "Attach Image",
    "label": "Vehicle Image"
+  },
+  {
+   "fieldname": "insurance_expiry",
+   "fieldtype": "Date",
+   "label": "Insurance Expiry",
+   "reqd": 1
+  },
+  {
+   "default": "Active",
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Active\nOut of Service\nSold\nCrushed"
+  },
+  {
+   "fieldname": "condition",
+   "fieldtype": "Rating",
+   "label": "Condition"
   }
  ],
  "has_web_view": 1,
@@ -83,7 +104,7 @@
  "index_web_pages_for_search": 1,
  "is_published_field": "is_published",
  "links": [],
- "modified": "2024-08-08 10:57:35.460241",
+ "modified": "2024-08-08 12:28:11.220941",
  "modified_by": "Administrator",
  "module": "Rentals",
  "name": "Vehicle",
