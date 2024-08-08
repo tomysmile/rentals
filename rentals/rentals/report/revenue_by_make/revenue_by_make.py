@@ -4,6 +4,8 @@
 import frappe
 
 def execute(filters=None):
+	frappe.errprint(filters);
+
 	columns = [{
     "fieldname": "make",
     "label": "Make",
