@@ -2,4 +2,8 @@
 
 {% block page_content %}
   <h1>About Us</h1>
+
+  {% set user = frappe.session.user %}
+
+  Hi, {{ user }}
 {% endblock %}
