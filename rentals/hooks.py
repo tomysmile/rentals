@@ -149,6 +149,12 @@ app_license = "mit"
 # 	"monthly": [
 # 		"rentals.tasks.monthly"
 # 	],
+#   "Cron": {
+#     "30 15 * * 3": [
+#       "rentals.api.send_payment_reminders" // runs every Wednesday at 03:30 PM (15:30)
+#     ]
+#   }
+#
 # }
 
 # Testing
