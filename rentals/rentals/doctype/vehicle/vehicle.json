@@ -12,6 +12,7 @@
   "model",
   "year",
   "insurance_expiry",
+  "vehicle_type",
   "column_break_uifx",
   "license_plate",
   "color",
@@ -97,6 +98,12 @@
    "fieldname": "condition",
    "fieldtype": "Rating",
    "label": "Condition"
+  },
+  {
+   "fieldname": "vehicle_type",
+   "fieldtype": "Link",
+   "label": "Vehicle Type",
+   "options": "Vehicle Type"
   }
  ],
  "has_web_view": 1,
@@ -104,7 +111,7 @@
  "index_web_pages_for_search": 1,
  "is_published_field": "is_published",
  "links": [],
- "modified": "2024-08-08 12:28:11.220941",
+ "modified": "2024-08-10 17:50:17.935546",
  "modified_by": "Administrator",
  "module": "Rentals",
  "name": "Vehicle",
