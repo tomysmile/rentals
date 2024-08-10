@@ -6,6 +6,8 @@ app_email = "tomy.ismail@thinkspedia.id"
 app_license = "mit"
 # required_apps = []
 
+fixtures = [{"dt": "Vehicle Type", "filters": {"is_standard": 1}}, "Rental Settings"]
+
 # Includes in <head>
 # ------------------
 
