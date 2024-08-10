@@ -15,3 +15,12 @@ class TestDriver(FrappeTestCase):
 		test_driver.save()
 
 		self.assertEqual(test_driver.full_name, "John Doe")
+	
+	def test_full_name_correctly_set_when_last_name_not_set(self):
+		test_driver = frappe.new_doc("Driver")
+		test_driver.first_name = "John"
+		test_driver.license_number = "XYZ12345"
+		test_driver.phone_number = "+6281299912345"
+		test_driver.save()
+
+		self.assertEqual(test_driver.full_name, "John")
